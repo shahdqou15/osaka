@@ -1,0 +1,11 @@
+body{
+    height: 10000px;
+}
+:root{
+      --maincolor:#FB2E86;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #FB2E86;
+    font-weight: 20px;
+}
