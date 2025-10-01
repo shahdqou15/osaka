@@ -3,9 +3,47 @@ body{
 }
 :root{
       --maincolor:#FB2E86;
+      --mainfont:"Open Sans", sans-serif;
+}
+.text-color{
+    color: var(--maincolor);
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: #FB2E86;
     font-weight: 20px;
+}
+.nav {
+  
+    padding: 100px 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: var(--maincolor);
+}
+.nav-tabs .nav-link{
+    color: black;
+}
+
+
+
+
+.hero{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: var(--mainfont);
+}
+.hero h1{
+   font-size : 48px;
+   
+}
+.icons{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:1px solid #222222;
+    transition: all 0.5s;
+}
+.icons:hover{
+    border-color: #fff;
 }
